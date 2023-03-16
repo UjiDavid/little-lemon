@@ -1,9 +1,9 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 
 const Header = () => {
   return (
     <header>
-      <img src="../../public/logo.svg" alt="Little Lemon Logo" />
+      <img src={require('../assets/logo.jpg')} alt="Little Lemon Logo" />
       <nav>
         <ul>
           <li>
